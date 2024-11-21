@@ -1,0 +1,30 @@
+/* Dashboard container */
+.dashboard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Chart titles */
+  .dashboard-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Responsive container for charts */
+  .responsive-container {
+    margin-bottom: 40px;
+  }
+  
+  /* Loading text */
+  .loading-text {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    padding: 50px;
+  }
+  
