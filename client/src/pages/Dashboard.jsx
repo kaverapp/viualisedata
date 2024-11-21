@@ -16,6 +16,7 @@ export const Dashboard = () => {
   const [dateRange, setDateRange] = useState([null, null]);
   const [genderFilter, setGenderFilter] = useState("All");
   const [error, setError] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams(); 
 
   useEffect(() => {
     // Initialize filters from query parameters
